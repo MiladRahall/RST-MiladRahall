@@ -1,0 +1,50 @@
+.scoretext {
+  text-align: center;
+  color: saddlebrown;
+  font-size: 32px;
+}
+
+.clickerc {
+  border: 0;
+  background-color: bisque;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.cookie {
+  width: 200px;
+  height: 200px;
+}
+
+.text1 {
+ text-align: center;
+ color: saddlebrown;
+ font-size: 27px;
+}
+
+.top {
+  text-align: center;
+  font-size: 30px;
+  color: saddlebrown;
+  font-family: 'Courier New', monospace;
+}
+
+.up1 {
+  text-align: center;
+  color: saddlebrown;
+  background-color: burlywood;
+  border: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.button1 {
+  border: 2px;
+  text-align: center;
+  color: saddlebrown;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
