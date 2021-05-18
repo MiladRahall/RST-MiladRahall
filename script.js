@@ -1,6 +1,5 @@
 // Setting up my variables and constant
 let points = 0
-const increase = 1
 const cpoint = 1
 let mult = 1
 let price = 250
@@ -8,7 +7,7 @@ let price = 250
 document.getElementById('clicker').addEventListener('click', click)
 document.getElementById('upbutton').addEventListener('click', upgrade1)
 document.getElementById('winbutton').addEventListener('click', win)
-// This function determines the amount of points gained when the user clicks on the clicker
+// This function determines the amount of points gained when the user clicks on the clicker. Code idea from original planet clicker game.
 function click () {
   points = points + cpoint * mult
   document.getElementById('score1').innerHTML = points
@@ -17,7 +16,7 @@ function click () {
 function upgrade1 () {
   if (points >= price) {
     points = points - price
-    mult = mult + increase
+    mult = mult + cpoint
     price = price + 250
     document.getElementById('textprice').innerHTML = price
     document.getElementById('score1').innerHTML = points
