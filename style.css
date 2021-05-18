@@ -18,9 +18,9 @@
 }
 
 .text1 {
- text-align: center;
- color: saddlebrown;
- font-size: 27px;
+  text-align: center;
+  color: saddlebrown;
+  font-size: 27px;
 }
 
 .top {
@@ -39,6 +39,7 @@
   margin-right: auto;
   display: block;
 }
+
 .button1 {
   border: 2px;
   text-align: center;

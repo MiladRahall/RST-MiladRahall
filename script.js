@@ -1,7 +1,7 @@
 // Setting up my variables and constant
 let points = 0
 const increase = 1
-let cpoint = 1
+const cpoint = 1
 let mult = 1
 let price = 250
 // Adding event listeners to my buttons
@@ -11,7 +11,7 @@ document.getElementById('winbutton').addEventListener('click', win)
 // This function determines the amount of points gained when the user clicks on the clicker
 function click () {
   points = points + cpoint * mult
-  document.getElementById('score1').innerHTML = points 
+  document.getElementById('score1').innerHTML = points
 }
 // The upgrade1 function is to upgrade the clicker. When the clicker is upgraded, the points per click will be multiplied
 function upgrade1 () {
@@ -29,8 +29,8 @@ function upgrade1 () {
 function win () {
   if (points >= 1250) {
     points = points - 1250
-    document.getElementById('win-1').innerHTML = ("You win!")
-    } else {
+    document.getElementById('win-1').innerHTML = ('You win!')
+  } else {
     alert('You need more points to win the game')
   }
 }
